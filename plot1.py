@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-x = np.linspace(0, 2 * np.pi, 100)
+x = np.linspace(0, 2 * np.pi, 500)
 fig, ax = plt.subplots(1, 1, layout="constrained")
 
 ax.plot(x, np.cos(x), "k-", label=r"$\cos(x)$")
