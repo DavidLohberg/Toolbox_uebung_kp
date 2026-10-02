@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 x = np.linspace(0, 2 * np.pi, 100)
 fig, ax = plt.subplots(1, 1, layout="constrained")
 
-ax.plot(x, np.cos(x), "r-", label=r"$\sin(x)$")
+ax.plot(x, np.cos(x), "k-", label=r"$\cos(x)$")
 
 ax.set(
     xlim=(0, 2 * np.pi),
