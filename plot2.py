@@ -9,17 +9,7 @@ ax.plot(x, np.exp(x), "r-", label=r"$\exp(x)$")
 ax.set(
     xlim=(0, 2 * np.pi),
     ylim=(-0.2, None),
-    xlabel=(r"$x$"),
-    xticks=np.arange(0, 2.1 * np.pi, np.pi / 2),
-    xticklabels=(
-        [
-            r"$0$",
-            r"$\frac{1}{2}\pi$",
-            r"$\pi$",
-            r"$\frac{3}{2}\pi$",
-            r"$2\pi$",
-        ]
-    ),
+    xlabel=(r"$x$")
 )
 
 ax.legend()
